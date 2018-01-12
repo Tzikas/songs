@@ -1,0 +1,82 @@
+.Keyboard{
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+
+.loopOn {
+	background: red;
+}
+
+.playButton{
+	display: inline;
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.profileSongName{
+	display: inline-block;
+}
+
+li{
+	list-style: none;
+}
+
+#name{
+	display: inline-block;
+}
+
+#userName{
+	display: inline;
+}
+
+#save{
+	display: block;
+}
+
+.recordedSongs{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#myRecordedSongs{
+	text-align: center;
+}
+
+#activeRooms{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.activeRoomName{
+	position: relative;
+    left: 0;
+    margin-right: 25%;
+}
+
+.joinRoom{
+	position: relative;
+    right: 0;
+    margin-left: 25%;
+}
+
+.activeRoom{
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.allSongs-songList{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+.songBox{
+	position: relative;
+	text-align: justify;
+}
